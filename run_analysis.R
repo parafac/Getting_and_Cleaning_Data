@@ -4,10 +4,10 @@ library(data.table)
 # store it in local disk and unzip the data file
 # this part only run once, should be commented out after first run
 
-# fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-# localFile <- "projectData.zip"
-# download.file(fileURL, destfile = localFile)
-# unzip(localFile)
+fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+localFile <- "projectData.zip"
+download.file(fileURL, destfile = localFile)
+unzip(localFile)
 
 # specify data files and load data into tables
 
